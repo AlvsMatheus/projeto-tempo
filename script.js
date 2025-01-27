@@ -1,0 +1,5 @@
+let img = window.document.getElementById('#container')
+let horario = window.document.getElementById('#child')
+let data = new Date()
+let tempo = data.getHours()
+horario.innerHTML = console.log(`${horario} Horas`)

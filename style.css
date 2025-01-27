@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+header h1{
+    color: white;
+}
+
+
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column nowrap;
+    width: 100%;
+    height: 100vh;
+    background-image:url(imagens/afternoon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    /*melhor qualidade para imagem*/
+}
+
+#child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 20px;
+    height: 200px;
+    width: 400px;  
+    margin: 200px 0px;
+}
+
+#child p{
+    text-decoration: none;
+    font-size: 100px;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    width: 100%;
+}
