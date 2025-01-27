@@ -8,7 +8,10 @@
 }
 
 header h1{
-    color: white;
+    color: rgb(218, 231, 255);
+    font-size: 70px;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.219);
+    font-family:'comic neue','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 
@@ -41,6 +44,7 @@ header h1{
 #child p{
     text-decoration: none;
     font-size: 100px;
+    color: rgb(243, 243, 140);
 }
 
 body{
