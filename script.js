@@ -7,15 +7,15 @@ function load() {
 
     if (hora >= 0 && hora < 12) {
         // Morning
-        container.style.backgroundImage = "url('manha.jpg')"
+        document.body.style.backgroundImage = "url('imagens/morning-pc.jpg')"
         horario.style.color = "#FFF9C4"
     } else if (hora >= 12 && hora < 18) {
         // Afternoon
-        container.style.backgroundImage = "url('afternoon.jpg')"
+        document.body.style.backgroundImage = "url('imagens/afternoon-pc.jpg')"
         horario.style.color = "#90CAF9"
     } else {
         // Night
-        container.style.backgroundImage = "url('night.jpg')"
+        document.body.style.backgroundImage = "url('imagens/night-pc.jpg')"
         horario.style.color = "#4682B4"
     }
 }
